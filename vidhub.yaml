@@ -1,0 +1,12 @@
+- name: Open in VidHub
+  version: 1
+  minVersion: '0.7'
+  about: >-
+    Opens VidHub as an external video player
+  website: https://github.com/biehla
+  tags:
+    - name: Debrid
+  requires:
+    - debrid # Displays as a tag in-app
+  deeplink:
+    - scheme: open-vidhub://{link}
